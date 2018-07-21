@@ -1,3 +1,9 @@
+/********************************************************
+ 2018-07-21 Gustavo Paez - Commented background and added background-image
+                         - Updated header.masthead .bg-circle with gradient values 
+*********************************************************/
+
+
 body {
   font-family: 'Lato';
 }
@@ -53,7 +59,8 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  /*background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);*/
+  background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -77,7 +84,7 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient(0deg, #ee097978 0%, #ff6a008a 100%);
 }
 
 header.masthead .bg-circle-1 {
