@@ -1,6 +1,6 @@
 /********************************************************
  2018-07-21 Gustavo Paez - Commented background and added background-image
-                         - Updated header.masthead .bg-circle with gradient values 
+                         - Updated header.masthead .bg-circle with gradient values
 *********************************************************/
 
 
@@ -60,7 +60,7 @@ header.masthead {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   /*background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);*/
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/background_red.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
