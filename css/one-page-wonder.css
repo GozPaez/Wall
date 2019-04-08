@@ -1,6 +1,6 @@
 /********************************************************
  2018-07-21 Gustavo Paez - Commented background and added background-image
-                         - Updated header.masthead .bg-circle with gradient values 
+                         - Updated header.masthead .bg-circle with gradient values
 *********************************************************/
 
 
@@ -27,7 +27,7 @@ h6 {
 }
 
 .bg-black {
-  background-color: #000 !important;
+  background-color: rgb(0, 112, 255) !important;
 }
 
 .rounded-pill {
@@ -37,7 +37,8 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  /*background-color: rgba(0, 0, 0, 0.7);*/
+  background-color: rgb(0, 112, 255);
 }
 
 .navbar-custom .navbar-brand {
